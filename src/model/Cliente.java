@@ -4,7 +4,7 @@ public class Cliente {
     private String nomeCliente;
     private Integer cpfCliente;
 
-    public Cliente(String nomeCliente, Integer cpfCliente){
+    public Cliente(String nomeCliente, String cpfCliente){
         this.cpfCliente=cpfCliente;
         this.nomeCliente=nomeCliente;
     }

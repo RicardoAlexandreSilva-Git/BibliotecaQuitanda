@@ -7,7 +7,7 @@ import java.util.List;
 
 public class LivroDAO {
     private List<Livro> livros = new ArrayList<>();
-    private Integer codigoLivro;
+    private String codigoLivro;
     public void cadastrarLivro(Livro novoLivro){
         Livro livroExistente = buscarLivro(novoLivro.getNomeLivro());
 
@@ -20,7 +20,7 @@ public class LivroDAO {
     }
 
     public void listarLivro(){
-
+    livros.forEach(System.out::println);
     }
 
     public Livro buscarLivro(String nomeLivro){

@@ -2,7 +2,7 @@ package dao;
 
 public class ClienteDAO {
     private String nomeCliente;
-    private Integer cpfCliente;
+    private String cpfCliente;
 
     public void cadastrarCliente(){
 
